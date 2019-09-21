@@ -1,0 +1,34 @@
+@mixin row {
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@mixin  btn{
+  input[type=button],input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    position: relative;
+    background: #61D867;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border: none;
+    &:hover{
+      background: #62EE69;
+    }
+    &:active{
+      background: #59C65E;
+    }
+  }
+}
+
+ h3{
+   font-weight: bold;
+   font-size: 1.25rem;
+   color: black;
+   line-height: 23px;
+ }
