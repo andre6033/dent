@@ -1,0 +1,294 @@
+h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: black;
+  line-height: 23px;
+}
+
+input[type=button], input[type=submit] {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+  background: #61D867;
+  padding: 10px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: none;
+}
+input[type=button]:hover, input[type=submit]:hover {
+  background: #62EE69;
+}
+input[type=button]:active, input[type=submit]:active {
+  background: #59C65E;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px;
+}
+
+.main .container .navbar-text {
+  margin-right: 8px;
+}
+.main .container .navbar-text img {
+  width: 100%;
+}
+.main .container .adr {
+  font-size: 1rem;
+  line-height: 19px;
+  color: #000000;
+  width: 175px;
+}
+.main .container .callback input[type=button] {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+  background: #61D867;
+  padding: 10px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: none;
+}
+.main .container .callback input[type=button]:hover {
+  background: #62EE69;
+}
+.main .container .callback input[type=button]:active {
+  background: #59C65E;
+}
+.main .container .callback P {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.56rem;
+  color: #262626;
+  margin: 0;
+}
+.main .container .callback p:last-child {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #B5B5B5;
+  margin-top: 10px;
+  text-align: center;
+}
+.main .container .callback p:last-child:after {
+  content: url("img/arr_up.svg");
+  position: absolute;
+  top: 69px;
+  right: -17px;
+}
+.main .container .navbar, .main .container .navbar-expand-md {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0;
+}
+.main .container .navbar .navbar-brand, .main .container .navbar-expand-md .navbar-brand {
+  width: 25%;
+}
+.main .container .navbar .navbar-brand img, .main .container .navbar-expand-md .navbar-brand img {
+  width: 100%;
+}
+.main .container .navbar .navbar-nav, .main .container .navbar-expand-md .navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+.main .container .navbar .navbar-nav .nav-item, .main .container .navbar-expand-md .navbar-nav .nav-item {
+  border-right: 1px solid #E9E9E9;
+  flex: auto;
+  text-align: center;
+}
+.main .container .navbar .navbar-nav .nav-item:first-child, .main .container .navbar-expand-md .navbar-nav .nav-item:first-child {
+  text-align: left;
+}
+.main .container .navbar .navbar-nav .nav-item:last-child, .main .container .navbar-expand-md .navbar-nav .nav-item:last-child {
+  border: none;
+  text-align: right;
+}
+.main .container .navbar .navbar-nav .nav-item .nav-link, .main .container .navbar-expand-md .navbar-nav .nav-item .nav-link {
+  font-size: 1.25rem;
+  line-height: 142%;
+  color: #262626;
+  padding: 0;
+}
+.main .container .inf_doc {
+  text-align: left;
+}
+.main .container .inf_doc img {
+  width: 100%;
+}
+.main .container .inf_doc h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #49BD4F;
+}
+.main .container .inf_doc p {
+  margin: 10px 0;
+}
+.main .container .inf_doc input[type=button] {
+  width: 30%;
+  white-space: pre-wrap;
+}
+
+.main_center {
+  background: #FAFAFA;
+  width: 100vw;
+}
+.main_center .servis {
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.main_center .servis h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #49BD4F;
+}
+.main_center .servis .list_servis .list1 div, .main_center .servis .list_servis .list2 div {
+  color: #49BD4F;
+  border: 1px solid #49BD4F;
+  padding: 20px 0 0 20px;
+}
+.main_center .servis .list_servis .list1 div ul, .main_center .servis .list_servis .list2 div ul {
+  height: 100%;
+  font-size: 1rem;
+  padding: 0;
+  width: 78%;
+}
+.main_center .servis .list_servis .list1 div ul li, .main_center .servis .list_servis .list2 div ul li {
+  margin-top: 15px;
+}
+.main_center .servis .list_servis .list1 div {
+  margin-top: 40px;
+}
+.main_center .servis .list_servis .list1 div h3 {
+  width: 76%;
+  padding: 0;
+}
+.main_center .servis .list_servis .list2 div {
+  margin-top: 30px;
+}
+
+#modal1, #modal2 {
+  display: none;
+  margin: 0 auto;
+  max-width: 472px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background: white;
+  height: max-content;
+}
+#modal1 p:first-child, #modal2 p:first-child {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 47px;
+  margin: 0;
+}
+#modal1 p:nth-child(2), #modal2 p:nth-child(2) {
+  font-size: 1.5rem;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+#modal1 form input[type=text], #modal1 form input[type=number], #modal2 form input[type=text], #modal2 form input[type=number] {
+  width: 300px;
+  border-bottom: 2px solid #CACACA;
+  margin-bottom: 70px;
+}
+#modal1 form input[type=text]::placeholder, #modal1 form input[type=number]::placeholder, #modal2 form input[type=text]::placeholder, #modal2 form input[type=number]::placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #757575;
+}
+#modal1 form input[type=number]::-webkit-outer-spin-button,
+#modal1 form input[type=number]::-webkit-inner-spin-button, #modal2 form input[type=number]::-webkit-outer-spin-button,
+#modal2 form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#modal1 form input[type=number], #modal2 form input[type=number] {
+  -moz-appearance: textfield;
+}
+#modal1 form input[type=number]:hover,
+#modal1 form input[type=number]::-webkit-inner-spin-button,
+#modal1 form input[type=number]::-webkit-outer-spin-button, #modal2 form input[type=number]:hover,
+#modal2 form input[type=number]::-webkit-inner-spin-button,
+#modal2 form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+#modal1 form input[type=button], #modal2 form input[type=button] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  color: #FFFFFF;
+  background: #61D867;
+  text-align: center;
+  padding: 13px 49px;
+}
+#modal1 form input[type=button]:hover, #modal2 form input[type=button]:hover {
+  background: #62EE69;
+}
+#modal1 form input[type=button]:active, #modal2 form input[type=button]:active {
+  background: #59C65E;
+}
+#modal1 .close_mod, #modal2 .close_mod {
+  cursor: pointer;
+  width: 42px;
+  padding: 7px;
+  position: absolute;
+  top: -20px;
+  right: -16px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+#modal1 .close_mod:before, #modal2 .close_mod:before {
+  color: #49BD4F;
+  content: "X";
+  position: center;
+  font-size: 18px;
+}
+
+@media all and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 770px) {
+  .servis .list_servis .list1, .servis .list_servis .list2 {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.boot.css.map */
